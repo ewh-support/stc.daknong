@@ -1,0 +1,59 @@
+/*
+ * jquery.popeye.css 2.0
+ *
+ * Mandatory CSS classes for jQuery.popeye
+ *
+ * Copyright (C) 2010 Christoph Schuessler (schreib@herr-schuessler.de)
+ * 
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ */
+.ppy-outer {
+    display:                none;
+}
+.ppy-active .ppy-outer {
+    display:                block;
+}
+.ppy-stage {
+    background-repeat:      no-repeat !important;
+    background-position:    center center !important;
+    position:               relative;
+    
+}
+
+.ppy-placeholder {
+    position:               relative;
+}
+
+.ppy-caption,
+.ppy-captionwrap {
+    overflow:               hidden;
+}
+
+.ppy-hidden {
+    display:                none !important;
+}
+/*
+     FILE ARCHIVED ON 04:17:51 Jul 09, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:57:10 Apr 09, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 58.169 (3)
+  esindex: 0.013
+  captures_list: 145.735
+  CDXLines.iter: 18.041 (3)
+  PetaboxLoader3.datanode: 774.466 (4)
+  exclusion.robots: 0.315
+  exclusion.robots.policy: 0.297
+  RedisCDXSource: 65.246
+  PetaboxLoader3.resolve: 50.831
+  load_resource: 772.665
+*/

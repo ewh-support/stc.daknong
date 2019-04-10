@@ -1,0 +1,84 @@
+/* Generic context menu styles */
+.contextMenu {
+	position: absolute;
+	width: 180px;
+	z-index: 99999;
+	border: solid 1px #CCC;
+	background: #EEE;
+	padding: 0px;
+	margin: 0px;
+	display: none;
+}
+
+.contextMenu LI {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.contextMenu A {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	line-height: 20px;
+	height: 20px;
+	background-position: 6px center;
+	background-repeat: no-repeat;
+	outline: none;
+	padding: 1px 5px;
+	padding-left: 28px;
+}
+
+.contextMenu LI.hover A {
+	color: #FFF;
+	background-color: #3399FF;
+}
+
+.contextMenu LI.disabled A {
+	color: #AAA;
+	cursor: default;
+}
+
+.contextMenu LI.hover.disabled A {
+	background-color: transparent;
+}
+
+.contextMenu LI.separator {
+	border-top: solid 1px #CCC;
+}
+
+/*
+	Adding Icons
+	
+	You can add icons to the context menu by adding
+	classes to the respective LI element(s)
+*/
+
+.contextMenu LI.edit A { background-image: url('../../../../../../20180712102034im_/http_/stc.daknong.gov.vn/_layouts/LacVietBio/eofficeimg/page_white_edit.html'); }
+.contextMenu LI.cut A { background-image: url('../../../../../../20180712102034im_/http_/stc.daknong.gov.vn/_layouts/LacVietBio/eofficeimg/postbyweb.html'); }
+.contextMenu LI.copy A { background-image: url('../../../../../../20180712102034im_/http_/stc.daknong.gov.vn/_layouts/LacVietBio/eofficeimg/EDIT.html'); }
+.contextMenu LI.paste A { background-image: url('../../../../../../20190307014223im_/http_/stc.daknong.gov.vn/_layouts/LacVietBio/eofficeimg/page_white_paste.html'); }
+.contextMenu LI.delete A { background-image: url('../../../../../../20190307014758im_/http_/stc.daknong.gov.vn/_layouts/LacVietBio/eofficeimg/page_white_delete.html'); }
+.contextMenu LI.quit A { background-image: url('../../../../../../20180712102034im_/http_/stc.daknong.gov.vn/_layouts/LacVietBio/eofficeimg/door.html'); }
+
+/*
+     FILE ARCHIVED ON 10:20:34 Jul 12, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:31:28 Apr 09, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 150.303 (3)
+  esindex: 0.008
+  captures_list: 175.977
+  CDXLines.iter: 12.745 (3)
+  PetaboxLoader3.datanode: 204.646 (5)
+  exclusion.robots: 0.137
+  exclusion.robots.policy: 0.128
+  RedisCDXSource: 10.311
+  PetaboxLoader3.resolve: 81.058 (2)
+  load_resource: 477.502
+*/

@@ -1267,9 +1267,9 @@ div.title-album a{
 	text-transform:uppercase;
 }
 div.title-album a, div.title-album a:link, div.title-album a:visited{
-	color:#fff;
-	background:url("http://web.archive.org/web/20170709042620im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
-	border-radius: 10px 5px 0px 0px;
+	color: #fff;
+    background: #961717;
+    border-radius: 10px 5px 0px 0px;
 }
 div.title-album a:hover{
 	text-decoration:none;

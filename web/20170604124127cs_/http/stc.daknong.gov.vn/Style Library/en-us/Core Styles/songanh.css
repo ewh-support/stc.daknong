@@ -140,7 +140,7 @@ a img{
 .dateSearch{
 	clear:both;
 	overflow:hidden;
-	height:45px;
+	height:30px;
 	background: url("http://web.archive.org/web/20170709042620im_/http://stc.daknong.gov.vn/imgSonganh/bgDate-Search.png") no-repeat center 0px;
 }
 /**** Topmenu style.css**/
@@ -317,6 +317,7 @@ div.s4-search .ms-sbcell input{
 	height:255px;
 	overflow:hidden;	
 	margin:0px auto;
+	width: 962px;
 }
 .Footer{
 	width:962px;
@@ -389,8 +390,9 @@ div.menuF1 a:hover{
 }
 .hMain,.layout1zone{
 	margin:0px auto;
-	width:962px;
+	width:auto;
 	overflow:hidden;
+	padding: 3px 3px 3px 3px;
 }
 .navList{
 	background-color:#FFFFFF;
@@ -401,7 +403,6 @@ div.menuF1 a:hover{
 	overflow:hidden;
 }
 .hLeft{
-	padding: 5px 0px 0px 10px;
     width: 250px;
 }
 .dCent{

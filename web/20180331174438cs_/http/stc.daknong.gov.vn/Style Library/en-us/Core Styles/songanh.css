@@ -56,7 +56,7 @@ body.songanh,body.songanh-tintuc,body.v4master1{
 	margin:0px auto;
 	width:962px;
 	padding-top:2px;
-	padding-bottom:10px;
+	padding-bottom:1px;
 }
 input[type=submit], input[type=button], button{
 	padding:0px 5px;
@@ -141,7 +141,7 @@ a img{
 .dateSearch{
 	clear:both;
 	overflow:hidden;
-	height:45px;
+	height:30px;
 	background: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/bgDate-Search.png") no-repeat center 0px;
 	background-color: #dcdcdc;
 }
@@ -319,6 +319,7 @@ div.s4-search .ms-sbcell input{
 	height:255px;
 	overflow:hidden;	
 	margin:0px auto;
+	width: 962px;
 }
 .Footer{
 	width:962px;
@@ -391,8 +392,9 @@ div.menuF1 a:hover{
 }
 .hMain,.layout1zone{
 	margin:0px auto;
-	width:962px;
+	width:auto;
 	overflow:hidden;
+	padding: 3px 3px 3px 3px;
 }
 .navList{
 	background-color:#FFFFFF;
@@ -403,7 +405,6 @@ div.menuF1 a:hover{
 	overflow:hidden;
 }
 .hLeft{
-	padding: 5px 0px 0px 10px;
     width: 250px;
 }
 .dCent{
@@ -414,10 +415,7 @@ div.menuF1 a:hover{
 }
 .hCent{
 	float:right;
-	width:455px;
-	padding-right:10px;
-	padding-top:5px;
-	padding-bottom:5px;
+	width:475px;
 }
 .hRight, .dRight,.snRight{
 	float:right;
@@ -1150,21 +1148,13 @@ table.ds_VBPL, table.table_ct {
 }
 .videobox-content{
 	overflow:hidden;
-	border:4px #00538d solid;
+	border:1px #00538d solid;
 	position:relative;
-	z-index:1;
-	border-top:0px;
-	margin-bottom:6px;
 }
-.videobox-title{
-	background: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-	height:29px;
-	width:220px;
-	line-height:29px;	
-	position:relative;
-	z-index:3;
-	padding-left:45px;
-	background-color: blue;
+.videobox-title{	
+	text-align: center;
+	background-color:#961717;
+	line-height: 34px;
 }
 .videobox-title a,.videobox-title a:link{
 	color:#fff!important;
@@ -1269,7 +1259,7 @@ div.title-album a{
 }
 div.title-album a, div.title-album a:link, div.title-album a:visited{
 	color:#fff;
-	background:url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: #961717;
 	border-radius: 10px 5px 0px 0px;
 }
 div.title-album a:hover{

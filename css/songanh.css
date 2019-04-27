@@ -313,7 +313,7 @@ div.s4-search .ms-sbcell input{
 /***** footer *******/
 .footer{
 	background:#006fa8 url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/footer.jpg") no-repeat center bottom;
-	height:255px;
+	height:220px;
 	overflow:hidden;	
 	margin:0px auto;
 	width: 962px;
@@ -330,7 +330,7 @@ div.s4-search .ms-sbcell input{
 }
 .menuF1{
 	float:unset;
-	font-size:15px;
+	font-size:13px;
 	
 }
 .menuF2{
@@ -538,7 +538,7 @@ table.lv_union_table_menuheader{
 }
 .union_main_image div.Union_block h2 {
     background: none repeat scroll 0 0 #000000;
-    top: 334px;
+    top:316px;
     padding-left:-14px;
     opacity:0.7;
 	filter:alpha(opacity=100);
@@ -586,12 +586,10 @@ div.union_main_image{
 }
 div.union_main_image img{
 	width:477px;
-	height:376px;
+	height:359px;
 	margin-top:-3px;
 	margin-left:-14px;
-	border-radius:0px;
-	
-	
+	border-radius:0px;		
 }
 .union_image_thumb div.Union_block h2 a{
 	font-weight:normal;
@@ -618,11 +616,11 @@ div.union_main_image img{
 	font-size:12px;
 	color:#FFF900!important;
 	padding-top:0px;
-	padding-left:0px;
+	padding-left:5px;
 	text-align:justify;
 	overflow:hidden;
 	display:block;
-	height:45px;
+	height:64px;
 	margin-left:-9px;
 	margin-right:5px;
 	
@@ -1446,14 +1444,12 @@ div.main-hit{
     padding-right: 5px;
 }
 div.thongbao-detail td.LItem a, div.thongbao-detail td.LItem a:link {
-    background: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/iconTB1.png") no-repeat scroll 0 2px rgba(0, 0, 0, 0);
     color: #0055A8;
     display: block;
-    padding-left: 15px;
+    padding-left: 10px;
     text-align:justify;
-    height:76px;
-    overflow:hidden;
-    line-height:15px;
+	line-height:15px;
+	padding-top: 10px;
 }
 .hRight .ms-navheader{
 	background: #00538d url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/r-titlemn.png") no-repeat left top;

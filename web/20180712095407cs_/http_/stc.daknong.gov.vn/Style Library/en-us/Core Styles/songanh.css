@@ -313,7 +313,7 @@ div.s4-search .ms-sbcell input{
 /***** footer *******/
 .footer{
 	background:#006fa8 url("../../../../../../20180712095407im_/http_/stc.daknong.gov.vn/imgSonganh/footer.html") no-repeat center bottom;
-	height:255px;
+	height:220px;
 	overflow:hidden;	
 	margin:0px auto;
 	width: 962px;
@@ -330,7 +330,7 @@ div.s4-search .ms-sbcell input{
 }
 .menuF1{
 	float:unset;
-	font-size:15px;
+	font-size:13px;
 	
 }
 .menuF2{
@@ -510,7 +510,7 @@ table.lv_union_table_menuheader{
 .lv_union_table_menuheader td.lv_menuheader_first{
 	width:91px;
 	height:22px;
-	color:#FF000B;
+	color:#FFF900;
 	text-transform:none;
 	
 }
@@ -523,7 +523,7 @@ table.lv_union_table_menuheader{
 .lv_union_table_menuheader td.tabselected{	
 	width:91px;
 	height:22px;
-	color:#FF000B;
+	color:#FFF900;
 	text-transform:none;
 	background: url("../../../../../../20190307014135im_/http_/stc.daknong.gov.vn/imgSonganh/tabselect2.html") no-repeat right;
 	border-radius:22px 16px 0 0;

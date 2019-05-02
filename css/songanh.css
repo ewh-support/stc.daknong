@@ -121,7 +121,7 @@ a img{
 	padding-right:0px!important;
 }
 .logoS{
-	height:191px;
+	height:141px;
 	background:#FFFFFF url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/bgdangnhap1.jpg" ) repeat-x left top;	
 }
 .logoS embed{
@@ -1528,7 +1528,6 @@ tr.ms-news-header td{
 }
 .allPost,.postMain{
 	border:1px #a7c7d7 solid;
-	padding:15px;
 	overflow:hidden;
 	background:#fff url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/borBox.png") repeat-x left top;
 }

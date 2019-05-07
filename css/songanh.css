@@ -55,7 +55,7 @@ body.songanh,body.songanh-tintuc,body.v4master1{
 	margin:0px auto;
 	width:962px;
 	padding-top:2px;
-	padding-bottom:10px;
+	padding-bottom:1px;
 }
 input[type=submit], input[type=button], button{
 	padding:0px 5px;
@@ -121,7 +121,7 @@ a img{
 	padding-right:0px!important;
 }
 .logoS{
-	height:191px;
+	height:141px;
 	background:#FFFFFF url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/bgdangnhap1.jpg" ) repeat-x left top;	
 }
 .logoS embed{
@@ -140,7 +140,7 @@ a img{
 .dateSearch{
 	clear:both;
 	overflow:hidden;
-	height:45px;
+	height:30px;
 	background: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/bgDate-Search.png") no-repeat center 0px;
 }
 /**** Topmenu style.css**/
@@ -186,7 +186,7 @@ ul#topnav li.LvSelected + li{
 }
 .LvSelected div.main-level a, .LvSelected div.main-level a:link{
 	color:#FFFFFF;
-	background:url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background:#fff300;
 	height:32px;
 	margin-top:1px;
 }
@@ -313,9 +313,10 @@ div.s4-search .ms-sbcell input{
 /***** footer *******/
 .footer{
 	background:#006fa8 url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/footer.jpg") no-repeat center bottom;
-	height:255px;
+	height:220px;
 	overflow:hidden;	
 	margin:0px auto;
+	width: 962px;
 }
 .Footer{
 	width:962px;
@@ -329,7 +330,7 @@ div.s4-search .ms-sbcell input{
 }
 .menuF1{
 	float:unset;
-	font-size:15px;
+	font-size:13px;
 	
 }
 .menuF2{
@@ -388,8 +389,9 @@ div.menuF1 a:hover{
 }
 .hMain,.layout1zone{
 	margin:0px auto;
-	width:962px;
+	width:auto;
 	overflow:hidden;
+	padding: 3px 3px 3px 3px;
 }
 .navList{
 	background-color:#FFFFFF;
@@ -400,7 +402,6 @@ div.menuF1 a:hover{
 	overflow:hidden;
 }
 .hLeft{
-	padding: 5px 0px 0px 10px;
     width: 250px;
 }
 .dCent{
@@ -512,7 +513,7 @@ table.lv_union_table_menuheader{
 .lv_union_table_menuheader td.lv_menuheader_first{
 	width:91px;
 	height:22px;
-	color:#FF000B;
+	color:#FFF900;
 	text-transform:none;
 	
 }
@@ -525,7 +526,7 @@ table.lv_union_table_menuheader{
 .lv_union_table_menuheader td.tabselected{	
 	width:91px;
 	height:22px;
-	color:#FF000B;
+	color:#FFF900;
 	text-transform:none;
 	background: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/tabselect2.png") no-repeat right;
 	border-radius:22px 16px 0 0;
@@ -537,7 +538,7 @@ table.lv_union_table_menuheader{
 }
 .union_main_image div.Union_block h2 {
     background: none repeat scroll 0 0 #000000;
-    top: 334px;
+    top:316px;
     padding-left:-14px;
     opacity:0.7;
 	filter:alpha(opacity=100);
@@ -585,12 +586,10 @@ div.union_main_image{
 }
 div.union_main_image img{
 	width:477px;
-	height:376px;
+	height:359px;
 	margin-top:-3px;
 	margin-left:-14px;
-	border-radius:0px;
-	
-	
+	border-radius:0px;		
 }
 .union_image_thumb div.Union_block h2 a{
 	font-weight:normal;
@@ -617,11 +616,11 @@ div.union_main_image img{
 	font-size:12px;
 	color:#FFF900!important;
 	padding-top:0px;
-	padding-left:0px;
+	padding-left:5px;
 	text-align:justify;
 	overflow:hidden;
 	display:block;
-	height:45px;
+	height:64px;
 	margin-left:-9px;
 	margin-right:5px;
 	
@@ -696,7 +695,7 @@ div.union_main_image .Union_desc{
     padding: 0;
 }
 .hLeft .lacviet-tabsnews .ui-tabs .ui-tabs-nav li.tabs-0 a{
-	background:url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background:#961717 repeat scroll 0 0 rgba(0, 0, 0, 0);
 	width:235px;
 	height:34px;
 	padding-left:15px;
@@ -709,7 +708,7 @@ div.union_main_image .Union_desc{
 	padding:0px 8px;
 }
 .hLeft .td_vanbanmoi{
-    background: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: #961717 repeat scroll 0 0 rgba(0, 0, 0, 0);
     padding-left: 20px !important;
 }
 .hLeft .bg-vbmoi{
@@ -732,7 +731,7 @@ div.union_main_image .Union_desc{
 	height:30px;
 }
 .container_top_left1{
-	background:url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background:#961717 no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 	height:23px;
 	margin-left:0px;
 	margin-top:-1px;
@@ -996,7 +995,7 @@ div.news-tab-li-item a:hover{
 	background-color:#FFFFFF;
 }
 .td_vanbanmoi{
-	background: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: #961717 repeat scroll 0 0 rgba(0, 0, 0, 0);
 	height:29px;
 	width:220px;
 	line-height:29px;
@@ -1015,7 +1014,7 @@ div.news-tab-li-item a:hover{
 	background: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/r-space.gif") repeat-x left top;
 }
 .td_moinhat {
-	background:url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background:#961717 repeat scroll 0 0 rgba(0, 0, 0, 0);
     color: #FFFFFF;
     font-weight: bold;
     height: 35px;
@@ -1154,7 +1153,7 @@ table.ds_VBPL, table.table_ct {
 	margin-bottom:6px;
 }
 .videobox-title{
-	background: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: #961717 no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 	height:29px;
 	width:220px;
 	line-height:29px;	
@@ -1266,7 +1265,7 @@ div.title-album a{
 }
 div.title-album a, div.title-album a:link, div.title-album a:visited{
 	color:#fff;
-	background:url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background:#B45655;
 	border-radius: 10px 5px 0px 0px;
 }
 div.title-album a:hover{
@@ -1369,7 +1368,7 @@ div.main-hit{
 	margin-bottom:6px;
 }
 .snLeft .ms-navheader {
-    background: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: #961717 repeat scroll 0 0 rgba(0, 0, 0, 0);
     color: #FFFFFF !important;
     font-weight: bold;
     height: 28px;
@@ -1435,7 +1434,7 @@ div.main-hit{
     border-radius:5px 5px 0px 0px;
   	color:white;
     padding-top:9px;
-    background-color: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg");
+    background-color: #961717;
 }
 .thongbao div.container_top1 marquee {
     height: 390px;
@@ -1445,14 +1444,12 @@ div.main-hit{
     padding-right: 5px;
 }
 div.thongbao-detail td.LItem a, div.thongbao-detail td.LItem a:link {
-    background: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/iconTB1.png") no-repeat scroll 0 2px rgba(0, 0, 0, 0);
     color: #0055A8;
     display: block;
-    padding-left: 15px;
+    padding-left: 10px;
     text-align:justify;
-    height:76px;
-    overflow:hidden;
-    line-height:15px;
+	line-height:15px;
+	padding-top: 10px;
 }
 .hRight .ms-navheader{
 	background: #00538d url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/r-titlemn.png") no-repeat left top;
@@ -1465,7 +1462,7 @@ div.thongbao-detail td.LItem a, div.thongbao-detail td.LItem a:link {
 }
 /***cac menu Right**/
 .snRight .ms-navheader,.zoneLeft .ms-navheader{
-	background: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/l-title-cq.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);	
+	background: #961717 repeat scroll 0 0 rgba(0, 0, 0, 0);	
 	border-top:1px #56a3d9 solid;
 }
 /***Cac Menu Left**/
@@ -1531,7 +1528,6 @@ tr.ms-news-header td{
 }
 .allPost,.postMain{
 	border:1px #a7c7d7 solid;
-	padding:15px;
 	overflow:hidden;
 	background:#fff url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/borBox.png") repeat-x left top;
 }
@@ -1714,7 +1710,7 @@ td.Other{
 	color:#fff;
 	text-decoration:none;
 	text-transform:uppercase;
-	margin-left:72px;
+	margin-left:15px;
 	
 }
 .TitleFront{

@@ -162,7 +162,7 @@ div.main-level a, div.main-level a:link, div.main-level a:visited {
 	color: #ffffff;
 }
 ul#topnav li a {
-	padding: 0px 20px 0px 20px;
+	padding: 0px 10px 0px 20px;
 	display:inline-block;
 	text-decoration: none;
 	font-size: 12px;
@@ -257,7 +257,7 @@ div.ms-PartSpacingVertical{
 }
 /**/
 .searchL{
-	padding-top:11px;
+	padding-top:5px;
 	padding-left:20px;
 	float:left;
 }
@@ -661,7 +661,8 @@ div.union_main_image .Union_desc{
 }
 .div-image div a img{
 	width:auto;
-	border-radius:4px;
+	border: 1px solid #24a9e8;
+	border-radius:2px;
 }
 /*** tin chuyen muc - home  **/
 .lacviet-tabsnews{
@@ -669,7 +670,7 @@ div.union_main_image .Union_desc{
 	padding:15px 15px;
 	overflow:hidden;
 	background:#fff url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/borBox.png") repeat-x left top;
-	height:350px;
+	height:auto;
 	position:relative;
 }
 .hCent .ui-tabs .ui-tabs-nav{
@@ -714,7 +715,6 @@ div.union_main_image .Union_desc{
 .hLeft .bg-vbmoi{
     background: url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/bg-cq-left.png") no-repeat scroll left 8px transparent;
     height:441px;
-    padding-top:8px;
     padding-bottom:2px;
 }
 .hLeft div.news-tab-li-item a,.hLeft div.news-tab-li-item a:link,.hLeft div.news-tab-li-item a:visited{
@@ -1291,19 +1291,24 @@ div#ppy1 .ppy-nav{
 .linkweb{
 	overflow:hidden;
 	margin-bottom:6px;	
+	padding-top: 2px;
 }
 .linkweb-cnt{
 	overflow:hidden;
-	background:#fff url("/web/20180712095407im_/http://stc.daknong.gov.vn/imgSonganh/bg-lienketwebpng.png") no-repeat left top;
-	height:90px;
+	background:#dcdcdc;
+	height:40px;
 	text-align:center;
+	border: 1px solid #7bb8d4;
+}
+.TruyCapOnLine .ThongKeTruyCap{
+	border:1px solid#7bb8d4;
 }
 .linkweb-title{
 	display:none;
 }
 .linkweb-cnt select{
 	width:85%!important;
-	margin-top:48px;
+	margin-top:10px;
 	border: 1px solid #A4A3A3;
     border-radius: 4px 4px 4px 4px;
     color: #2B2B2B !important;

@@ -478,12 +478,12 @@
 
                                                                 <li class="first-element" id="secondlist0"><a
                                                                         class="tmenu"
-                                                                        href="http://web.archive.org/web/20170604124127/http://stc.daknong.gov.vn/gioithieu/pages/gioi-thieu-chung.aspx">
+                                                                        href="/gioi-thieu-chung">
                                                                         Giới thiệu chung
                                                                     </a></li>
 
                                                                 <li class="" id="secondlist1"><a class="tmenu"
-                                                                        href="http://web.archive.org/web/20170604124127/http://stc.daknong.gov.vn/gioithieu/Pages/co-cau-to-chuc.aspx">
+                                                                        href="/co-cau-to-chuc">
                                                                         Cơ cấu tổ chức
                                                                     </a></li>
 

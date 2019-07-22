@@ -1142,7 +1142,6 @@ table.ds_VBPL, table.table_ct {
 /***Tin Video**/
 .videobox{
 	width:220px;
-	padding-top:5px;
 }
 .videobox-content{
 	overflow:hidden;
@@ -1302,6 +1301,16 @@ div#ppy1 .ppy-nav{
 }
 .TruyCapOnLine .ThongKeTruyCap{
 	border:1px solid#7bb8d4;
+	padding: 3px;
+}
+/*tuyen truyen chu chay*/
+.style_tuyentruyen {
+    position: absolute;
+    width: 502px;
+    font-size: 16px;
+    padding-left: 201px;
+    padding-top: 5px;
+	color:#0862c4;
 }
 .linkweb-title{
 	display:none;
@@ -1328,7 +1337,7 @@ div.main-hit{
 .divHitCount{
 	float:left;
 	width:100%;
-	padding-bottom:10px;
+	padding-bottom:5px;
 }
 .HitTitle{
 	width:125px;
@@ -1441,7 +1450,7 @@ div.main-hit{
     padding-right: 5px;
 }
 div.thongbao-detail td.LItem a, div.thongbao-detail td.LItem a:link {
-	color: #0055A8;
+	color:#1b4e9a;
     display: block;
     padding-left: 10px;
     text-align:justify;

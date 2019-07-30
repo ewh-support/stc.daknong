@@ -405,7 +405,7 @@ div.menuF1 a:hover{
 	overflow:hidden;
 }
 .hLeft{
-    width: 250px;
+    width: 200px;
 }
 .dCent{
 	float:right;
@@ -415,7 +415,7 @@ div.menuF1 a:hover{
 }
 .hCent{
 	float:right;
-	width:475px;
+	width:530px;
 }
 .hRight, .dRight,.snRight{
 	float:right;
